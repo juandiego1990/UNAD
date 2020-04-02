@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Franklin Gothic Heavy';
+    font-family: 'angsana new';
 }
 
 header{    
@@ -39,12 +39,17 @@ header{
 
 nav{
     width: 100%;
-    background-color: #F0B429;    
+    background-color:  #005883;    
 }
 
 nav a{
     display: inline-block;
-    color: cornsilk;    
+    color: #ffffff;    
     text-decoration: none;
     padding: 10px 20px;    
+}
+
+a:hover{
+    color: #F0B429;
+
 }
