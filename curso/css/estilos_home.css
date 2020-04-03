@@ -25,7 +25,12 @@ header{
 
 .title-content{
     text-align: center;
+    color:  #005883;
+    font-family: franklin gothic book;
+  
 }
+
+
 
 *{margin: 0; padding: 0;}
 
@@ -46,10 +51,25 @@ nav a{
     display: inline-block;
     color: #ffffff;    
     text-decoration: none;
-    padding: 10px 20px;    
+    padding: 10px 20px; 
+      
 }
 
 a:hover{
     color: #F0B429;
 
+}
+.introduccion{
+    padding-top: 5px;
+    
+
+}
+
+.introduccion p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Open Sans',sans-serif;
+    
+ 
 }
