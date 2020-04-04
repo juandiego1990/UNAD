@@ -35,11 +35,11 @@ header{
 *{margin: 0; padding: 0;}
 
 .content{
-    padding-top: 2%;
-    width: 80%;
-    max-width: 80%;
-    margin: auto;
-    overflow: hidden;
+    padding-top: 2%;     
+    margin: 20px;
+    margin-left: 20px;
+    
+  
 }
 
 nav{
@@ -67,9 +67,36 @@ a:hover{
 
 .introduccion p{
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: 'Open Sans',sans-serif;
+    
+    margin-right: 28%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
     
  
 }
+.caja{
+   
+    width: 300px;
+    margin-left: 75%;
+    margin-top: -10px;
+    
+
+
+}
+
+/* definicion de las fuentes*/
+
+.angsana{
+    font-family: 'angsana new';
+
+}
+.imagen1{
+    
+    width: 200px;
+}
+
+
