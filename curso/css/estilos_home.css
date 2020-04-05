@@ -1,13 +1,32 @@
 
-body{
-    font-family: 'angsana new';
+
+*{margin: 0; padding: 0;}
+
+
+
+.content{
+ 
+
+    width: 1000px;  
+    height: auto;
+   margin: auto; 
+    border: black 5px;
+   
+  
 }
+
 
 header{    
     height: auto;
-    width: 100%;
-    text-align: center;
+    width: 100%;    
     overflow: hidden;
+    
+}
+
+nav{
+    width: 100%;
+    background-color:  #005883;  
+    text-align: center;  
 }
 
 .centrar-img{
@@ -21,44 +40,98 @@ header{
     font-size: 60px;   
     color: rgb(4, 4, 53);    
     padding-bottom: 1%;
+    text-align: center;
 }
+
 
 .title-content{
     text-align: center;
     color:  #005883;
     font-family: franklin gothic book;
-  
-}
-
-
-
-*{margin: 0; padding: 0;}
-
-.content{
-    padding-top: 2%;     
-    margin: 20px;
-    margin-left: 20px;
     
   
 }
 
-nav{
-    width: 100%;
-    background-color:  #005883;    
-}
-
-nav a{
+.menu  a{
     display: inline-block;
     color: #ffffff;    
     text-decoration: none;
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    
       
 }
-
-a:hover{
+.menu a:hover{
     color: #F0B429;
 
 }
+section{
+    float: left;
+    width: 700px;
+    height: auto;
+    margin-top: 50  px;
+    padding-top: 25px;
+}
+section p{
+    padding-top: 10px;
+    font-family: 'angsana new';
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+.con{
+    margin-top: 50px;
+    float: left;
+    width: 200px;
+    height: 300;
+    margin-left: 5px;
+   
+}
+.imagen1{   
+  
+    background-color: wheat;
+    display: inline;
+} 
+footer{
+    clear: both;
+    width: 950;
+    height: 100x;
+    background-color:#005883 ;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.angsana {
+    font-family: 'franklin gothic heavy';
+    color:  #F47920;
+
+}
+
+
+
+
+
+
+/* body{
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .introduccion{
     padding-top: 5px;
     
@@ -67,36 +140,29 @@ a:hover{
 
 .introduccion p{
     text-align: justify;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-family: 'Open Sans',sans-serif;
-    
-    margin-right: 28%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Open Sans',sans-serif;    
+    background-color: yellow;
  
-    
- 
-}
-.caja{
-   
-    width: 300px;
-    margin-left: 75%;
-    margin-top: -10px;
-    
-
-
 }
 
 /* definicion de las fuentes*/
 
-.angsana{
+/* .angsana{
     font-family: 'angsana new';
 
 }
-.imagen1{
-    
-    width: 200px;
-}
+/* 
 
+/* .twitter{
+    background-color: tomato;
+    width: 250px;
+    height: 300px;
+    margin-left: 75%;
+    margin-top: 20px;
+  
+ 
+} */
 
