@@ -2,25 +2,20 @@
 
 *{margin: 0; padding: 0;}
 
-
-
-.content{
- 
-
-    width: 1000px;  
+.content{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;  
     height: auto;
-   margin: auto; 
+    margin: auto; 
     border: black 5px;
-   
-  
 }
-
 
 header{    
     height: auto;
     width: 100%;    
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 nav{
@@ -36,6 +31,7 @@ nav{
     padding-bottom: 1%;
 }
 
+/*Encabezado header*/
 .title{         
     font-size: 60px;   
     color: rgb(4, 4, 53);    
@@ -43,94 +39,92 @@ nav{
     text-align: center;
 }
 
-
 .title-content{
     text-align: center;
     color:  #005883;
     font-family: franklin gothic book;
-    
-  
+    padding-bottom: 15px;
+}
+
+.subtitle-content{
+    text-align: left;
+    color:  #005883;
+    font-family: franklin gothic book;    
+    padding-bottom: 15px;
 }
 
 .menu  a{
     display: inline-block;
     color: #ffffff;    
     text-decoration: none;
-    padding: 10px 20px;
-    
-      
+    padding: 10px 20px;      
 }
+
 .menu a:hover{
     color: #F0B429;
 
 }
+
 section{
     float: left;
     width: 700px;
     height: auto;
-    margin-top: 50  px;
-    padding-top: 25px;
-}
-section p{
-    padding-top: 10px;
-    font-family: 'angsana new';
+    margin-top: 50px;    
     font-size: 16px;
-    text-align: justify;
-    padding: 20px;
 }
 
+p{
+    padding-bottom: 15px;
+}
+
+section p h2 ul{
+    padding: 20px;
+    padding-top: 10px;
+    font-family: 'angsana new';    
+    text-align: justify;
+}
+
+section ul{
+    text-indent: 40px;
+}
 
 .con{
     margin-top: 50px;
     float: left;
     width: 200px;
     height: 300;
-    margin-left: 5px;
-   
+    margin-left: 5px;    
 }
-.imagen1{   
-  
+
+.imagen1{
     background-color: wheat;
     display: inline;
 } 
+
 footer{
-    clear: both;
-    width: 950;
+    width: 100%;
     height: 100x;
     background-color:#005883 ;
     text-align: center;
     color: blanchedalmond;
+    padding-top: 15px;
+}
+
+footer p {
+    display: block;
+    padding-top: 3px;
 }
 
 .angsana {
     font-family: 'franklin gothic heavy';
     color:  #F47920;
-
 }
-
-
-
-
 
 
 /* body{
  
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .introduccion{
     padding-top: 5px;
