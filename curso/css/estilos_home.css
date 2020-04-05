@@ -99,7 +99,33 @@ section ul{
 .imagen1{
     background-color: wheat;
     display: inline;
-} 
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;    
+    border-style: inset;
+    border-radius: 105px 105px 105px 105px;
+    -moz-border-radius: 105px 105px 105px 105px;
+    -webkit-border-radius: 105px 105px 105px 105px;
+    border: 2px solid #005883;
+    margin-bottom: 10px;    
+}
+
+.foto-autor{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 55%;
+    border-radius: 50%;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.descripcion-autor{
+    padding-top: 25px;
+    flex-grow:2;
+}
 
 footer{
     width: 100%;
@@ -120,43 +146,4 @@ footer p {
     color:  #F47920;
 }
 
-
-/* body{
- 
-    
-}
-
-.introduccion{
-    padding-top: 5px;
-    
-
-}
-
-.introduccion p{
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    font-family: 'Open Sans',sans-serif;    
-    background-color: yellow;
- 
-}
-
-/* definicion de las fuentes*/
-
-/* .angsana{
-    font-family: 'angsana new';
-
-}
-/* 
-
-/* .twitter{
-    background-color: tomato;
-    width: 250px;
-    height: 300px;
-    margin-left: 75%;
-    margin-top: 20px;
-  
- 
-} */
 
