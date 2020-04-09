@@ -3,12 +3,18 @@
 <head>
 	<title>Curso modelamiento de datos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="http://allfont.es/allfont.css?fonts=franklin-gothic-heavy" rel="stylesheet" type="text/css" />
     <link rel="stylesheet"  href="css/estilos_home.css">
+
 </head>
 
 <body>
+    
     <header>
         
         <div class="">
@@ -20,7 +26,7 @@
                 
                 <div class="title">                    
                         Modelado de datos                    
-                </div>              
+                </div>
                 
             </div>
         </div>
@@ -34,30 +40,125 @@
         <a href="ejemplos.html">Ejemplos</a>
         <a href="desarrollo.html">Desarrollo del modelo</a>
         <a href="autores.html">Autores</a>
-    </nav>
+    </nav>   
+        
+    <div class="content">
+
+        <section>
+           
+            <ul class="contenido">
+                <h3 >Contenido</h1>
+                <br>
+                <li>
+                    <a href="#">Fundamentos</a>
+                </li>
+                
+                <br>
+                <li>
+                    <a href="#Tiposrelaciones">Tipo de Relacion</a>
+                </li> 
+                <br>
+                <li>
+                    <a href="#">Diagrama</a>
+                </li>               
+            </ul>
+
+         
+
+            <br>
+            <br>
+            <hr>
+            
 
     
-    <div class="content">        
-        <section>
-            <h1 class="title-content">Fundamentos y conceptos</h1>
-        
+            <h1 class="title-content">Fundamentos</h1>
             <p>
-                Contenido de la página
+                Dentro de la base de datos, las tablas se pueden normalizar, es decir, hacer que cumplan las reglas de normalización que hacen a la base de datos flexible, adaptable y escalable. Al estar normalizada, cada porción de los datos es atómica, es decir, está dividida en partes útiles lo más pequeñas posibles.
+                
             </p>
-        </section>
+                        
+            <h3 class="subtitle-content">Modelo entidad relación:</h3>                
+            <p>
+                permite representar de manera simplificada los componentes que participan en un proceso de negocio y el modo en el que estos se relacionan entre sí.
+            </p>            
+            
+            <br>
+
+            <h3 class="subtitle-content">Entidades:</h3>                
+            <p>
+                El modelo contará con una entidad por cada uno de los componentes del proceso de negocio. Así, en un negocio de venta de suscripciones a revistas, podemos tener entidades “Cliente”, “Dirección”, “Factura”, “Producto”, o “Incidencias”, entre otras.
+            </p> 
+
+            <h3 class="subtitle-content">Relaciones:</h3>                
+            <p>
+                Con las relaciones se establecen vínculos entre parejas de entidades. Cada “Cliente” tendrá una “Dirección” de envío en la que recibirá la suscripción, podrá estar suscrito a uno o varios “Productos”, y recibirá una “Factura” con la periodicidad acordada.
+            </p> 
+
+            <h3 class="subtitle-content">Interrelación:</h3>                
+            <p>
+                Las interrelaciones las constituyen los vínculos entre entidades, de forma tal que representan las relaciones definidas en el esquema relacional de forma efectiva. Esto no sólo la relación de los registros sino de sus tablas y de las características de la interrelación entre las entidades, a través de un campo clave que actúa como código de identificación y referencia para relacionar 
+            </p> 
+
+            <h3 class="subtitle-content">Entidades fuertes:</h3>                
+            <p>
+                Lo constituyen las tablas principales de la base de datos que contienen los registros principales del sistema de información y que requieren de entidades o tablas auxiliares para completar su descripción o información. Por ejemplo la tabla usuario es una entidad fuerte en relación a la tabla tipos de usuarios, que es una entidad débil dada su condición auxiliar para clasificar a los usuarios registrados en la biblioteca. 
+            </p> 
+            <h3 class="subtitle-content">Entidades débiles:</h3>                
+            <p>
+                Son entidades débiles a las tablas auxiliares de una tabla principal a la que completan o complementan con la información de sus registros relacionados. Por ejemplo también son consideradas entidades débiles las tablas intermedias que sirven para compartir información de varias tablas principales.
+            </p> 
+            <br>
+
+            <img class="centrar-img" width="400px" height="auto"  src="img/Modelo2.JPG" alt="logo UNAD">
+            <br>
+
+            <img class="centrar-img" width="400px" height="auto"  src="img/Modelo3.JPG" alt="logo UNAD">
+
+<br>
+<br>
+<h3 class="subtitle-content" id="Tiposrelaciones">Tipos de relaciones:</h3>  
+<br>
+<h3 class="subtitle-content">1. Relación 1 a 1:</h3>                
+            <p>
+                La relación uno a uno, define que un único registro de la tabla puede estar relacionado con un único registro de la tabla relacionada.
+            </p> 
+            <img class="centrar-img" width="400px" height="auto"  src="img/relacion1a1.png" alt="logo UNAD">
+
+
+
+
+
+  
+
+        </section> 
         
+        <div class="con">
+        
+            <aside>
+                <p class="angsana">Eres el visitante </p>
+        
+                <div id="sfcpbwl6r5q3ckml4we63rlhtce13qf3hks"></div>
+                    <script type="text/javascript" src="https://counter2.stat.ovh/private/counter.js?c=pbwl6r5q3ckml4we63rlhtce13qf3hks&down=async" async></script>
+                    <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter2.stat.ovh/private/contadorvisitasgratis.php?c=pbwl6r5q3ckml4we63rlhtce13qf3hks" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
+
+            </aside>
+            <aside>
+                <a class="twitter-timeline" data-lang="es" data-width="250" data-height="300" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </aside> 
+        </div>
 
     </div>
 
     <footer >
         <p>Modelado de datos</p>
-                
+
         <p>UNAD</p>
         
         <p>2020</p> 
     </footer>
-
-
+        
+    
 
 </body>
 </html>
