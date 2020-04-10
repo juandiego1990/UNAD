@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Curso modelamiento de datos</title>
@@ -43,15 +43,50 @@
 
         <section>
             <h1 class="title-content">Tipos de relaciones</h1>
-            
+
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nostrum dolor hic? Nulla ullam, temporibus 
-                odit unde eveniet deserunt, quod repellendus dolorem repudiandae quo, quia minus sunt numquam doloribus molestias!
+                Los tipos de relaciones posibles entre dos entidades en un modelo entidad relación son:
             </p>
-            
+
+            <h2 class="subtitle-content">Relación uno a uno:</h2>
+
+            <p>
+                Un “individuo” de la entidad A solamente puede estar relacionado
+                con un “individuo” de la entidad B, y ese “individuo” de la entidad B no
+                puede estar relacionado con otros “individuos” de la entidad A. Por ejemplo, cada
+                miembro de la entidad País se relaciona únicamente con un miembro de la entidad
+                “Ciudad capital de un país”. Cada país puede tener una única capital y cada ciudad
+                capital puede serlo únicamente de un país.
+            </p>
+
+            <h2 class="subtitle-content">Relación uno a varios:</h2>
+
+            <p>
+                Un “individuo” de la entidad A puede estar relacionado con uno o varios “individuos”
+                de la entidad B, y esos “individuos” de la entidad B no pueden estar relacionados
+                con otros “individuos” de la entidad A. Por ejemplo, cada miembro de la
+                entidad “Padre” puede estar relacionado con uno o varios miembros de la entidad “Hijo”,
+                y cada miembro de la entidad “Hijo” solamente puede tener vínculo con
+                un miembro de la entidad “Padre”.
+            </p>
+
+            <h2 class="subtitle-content">Relación varios a varios:</h2>
+
+            <p>
+                Cada “individuo” de la entidad A puede estar relacionado con uno o varios “individuos”
+                de la entidad B, y cada “individuo” de la entidad B puede estar relacionado con varios
+                “individuos” de la entidad A. Por ejemplo, cada miembro de la entidad “Cliente”
+                puede estar relacionado con uno o varios miembros de la entidad “Producto”,
+                y cada miembro de la entidad “Producto” puede tener vínculo con varios miembros
+                de la entidad “Cliente”.
+            </p>
+
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/8awDPq4Yn-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </video>
         </section>
 
-
+        
     </div>
 
     <footer >
